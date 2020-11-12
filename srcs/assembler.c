@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   init.c                                             :+:      :+:    :+:   */
+/*   filler.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pkathy <pkathy@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,32 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/filler.h"
+#include "../includes/assembler.h"
 
-t_filler	*init_filler(void)
+int		main(int argc, char **argv)
 {
-	t_filler	*ret;
+	char **ln;
 
-	if ((ret = (t_filler *)ft_memalloc(sizeof(t_filler))))
-	{
-		ret->player = 0;
-		ret->enemy = 0;
-		ret->x = 0;
-		ret->y = 0;
-		if (!(ret->map = (t_map *)ft_memalloc(sizeof(t_map))))
-		{
-			free(ret);
-			return (0);
-		}
-		if (!(ret->piece = (t_piece *)ft_memalloc(sizeof(t_piece))))
-		{
-			free(ret->map);
-			free(ret);
-			return (0);
-		}
-		ret->map->dmap = 0;
-		ret->piece->height = 0;
-		return (ret);
-	}
-	return (0);
+	get_next_line()
 }

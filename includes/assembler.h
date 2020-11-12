@@ -10,56 +10,47 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILLER_H
+#ifndef ASSEMBLER_H
 
-# define FILLER_H
-# define ERROR_CODE -10
-# define EMPTY_CELL  -1
-# define PLAYER_CELL -2
-# define ENEMY_CELL -3
+# define ASSEMBLER_H
 # define MAXINT	2147483647
 # define MODE 0
 
 # include "../libft/libft.h"
 # include "../libft/get_next_line.h"
 
-typedef struct	s_map
-{
-	int			h;
-	int			w;
-	int			**dmap;
-}				t_map;
 
-typedef struct	s_piece
+typedef struct	s_arg
 {
-	char		**map;
-	int			height;
-	int			width;
-	int			x_top_left;
-	int			y_top_left;
-	int			x_bottom_right;
-	int			y_bottom_right;
-	int			th;
-	int			tw;
-}				t_piece;
+	char		*type;
+	void		*value;
+}				t_arg;
 
-typedef struct	s_filler
+typedef struct	s_label
 {
-	t_map		*map;
-	t_piece		*piece;
-	char		player;
-	char		enemy;
-	int			x;
-	int			y;
-}				t_filler;
+	char		*name;
+}				t_label;
 
-t_filler		*init_filler();
-void			filler_free(t_filler *filler);
-void			heat_map_free(t_filler *filler);
-void			place_piece(t_filler *filler, int i, int j);
-int				mdist(t_filler *filler, int i, int j);
-int				calc_piece_sum(t_filler *filler, int x, int y);
-void			calc_size(int i, int j, t_filler *filler);
-int				abs(int n);
-int				parse(t_filler *filler, char **str);
+typedef struct	s_token
+{
+	t_list		*labels;
+	char		*operation;
+	t_list		*args
+	int			position;
+}				t_token;
+
+typedef struct	s_lexeme
+{
+	char	*this;
+	char 	*next;
+}				t_lexeme;
+
+typedef struct s_asm
+{
+	t_list		*tokens;
+	int			opened_fd;
+}				t_asm;
+
+int		skip_whitespaces(char *str, int *i);
+
 #endif
