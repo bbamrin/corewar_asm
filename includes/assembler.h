@@ -18,6 +18,7 @@
 
 # include "../libft/libft.h"
 # include "../libft/get_next_line.h"
+# include "op.h"
 
 
 typedef struct	s_arg
