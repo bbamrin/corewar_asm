@@ -43,7 +43,7 @@ ardefchk:
 	live	%3940641
 	xor		r2, r5, r15
 	zjmp	%:ardefinit
-ardefloop:
+ardefloop:	
 	ld		%0, r16
 	zjmp	%:ardefwrite
 
@@ -109,7 +109,7 @@ avdefchk:
 	live	%3940641
 	xor		r2, r5, r15
 	zjmp	%:avdefinit
-avdefloop:
+avdefloop:	
 	ld		%0, r16
 	zjmp	%:avdefwrite
 
@@ -126,6 +126,7 @@ torpinit:
 	ld		%96, r5
 	sti		r1, %:torpchk, %1
 	st		r1, 6
+
 torpwrite:
 torpl1:
 	live	%8008135
@@ -137,7 +138,7 @@ torpl1:
 	add		r2, r3, r2
 torpchk:
 	live	%89523
-	xor		r2, r5, r15
+	xor		r2, r5, r15	
 	zjmp	%362
 torploop:
 	ld		%0, r15

@@ -181,6 +181,12 @@ CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o: ../libft/get_next_line.h
 CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o: ../libft/libft.h
 
+CMakeFiles/corewar_asm.dir/srcs/assemble.c.o: ../includes/assembler.h
+CMakeFiles/corewar_asm.dir/srcs/assemble.c.o: ../includes/op.h
+CMakeFiles/corewar_asm.dir/srcs/assemble.c.o: ../libft/get_next_line.h
+CMakeFiles/corewar_asm.dir/srcs/assemble.c.o: ../libft/libft.h
+CMakeFiles/corewar_asm.dir/srcs/assemble.c.o: ../srcs/assemble.c
+
 CMakeFiles/corewar_asm.dir/srcs/assembler.c.o: ../includes/assembler.h
 CMakeFiles/corewar_asm.dir/srcs/assembler.c.o: ../includes/op.h
 CMakeFiles/corewar_asm.dir/srcs/assembler.c.o: ../libft/get_next_line.h

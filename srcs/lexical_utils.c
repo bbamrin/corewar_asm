@@ -42,7 +42,8 @@ int		get_next_arg(t_asm *asm_ctx, char *line, int *i)
 		arg.type = T_IND;
 	while (line[i1] && line[i1] != COMMENT_CHAR && line[i1] != SEPARATOR_CHAR)
 		++(i1);
-	arg.value = ft_strsub(line, *i, i1  - *i);
+	//handle malloc
+	clean_trim(&(arg.value), ft_strsub(line, *i, i1  - *i));
 	ft_lstadd_end(&((t_token *)(asm_ctx->last_token->content))->args, ft_lstnew(&arg, sizeof(t_arg)));
 	if (line[i1] == SEPARATOR_CHAR)
 		i1++;
@@ -89,7 +90,7 @@ int		is_direct_valid(char *val)
 	else
 	{
 		i = -1;
-		if (val[0] == '-')
+		if (val[0] == '-' || val[0] == '+')
 			++i;
 		while (val[++i])
 			if(!(val[i] <= '9' && val[i] >= '0'))
@@ -112,7 +113,7 @@ int		is_indirect_valid(char *val)
 	else
 	{
 		i = -1;
-		if (val[0] == '-')
+		if (val[0] == '-' || val[0] == '+')
 			++i;
 		while (val[++i])
 			if(!(val[i] <= '9' && val[i] >= '0'))
@@ -131,6 +132,7 @@ int		is_arg_valid(t_arg *arg, int type)
 		return (is_direct_valid(arg->value));
 	else if (arg->type == T_IND)
 		return (is_indirect_valid(arg->value));
+
 	//handle possible error
 	return (0);
 }
@@ -145,7 +147,7 @@ int		is_arg_list_valid(t_asm *asm_ctx, t_list *args, t_op operation)
 	while (tmp)
 	{
 		++i;
-		if (i > operation.arg_count)
+		if (i > operation.arg_count - 1)
 		{
 			//handle error
 			return (0);
@@ -157,6 +159,8 @@ int		is_arg_list_valid(t_asm *asm_ctx, t_list *args, t_op operation)
 		}
 		tmp = tmp->next;
 	}
+	if (i != operation.arg_count - 1)
+		return (0);
 	return (1);
 }
 

@@ -64,5 +64,9 @@ void	init_op_tab(t_asm *asm_ctx);
 int		get_next_arg(t_asm *asm_ctx, char *line, int *i);
 int		is_token_valid(t_asm *asm_ctx, t_token *token);
 int		get_cmd(t_asm *asm_ctx);
+int		get_token_size(t_token *token);
+int 	clean_trim(char **str_res, char *to_trim);
+int		resolve_labels(t_asm *asm_ctx);
+void	print_token(t_token *token);
 
 #endif

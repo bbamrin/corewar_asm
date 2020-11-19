@@ -49,3 +49,14 @@ void	ft_lstadd_end(t_list **alst, t_list *new)
 		temp = temp->next;
 	temp->next = new;
 }
+
+int 	clean_trim(char **str_res, char *to_trim)
+{
+	char	*tmp;
+
+	tmp = to_trim;
+	if (!to_trim || !(*str_res = ft_strtrim(to_trim)))
+		return (0);
+	ft_strdel(&tmp);
+	return (1);
+}

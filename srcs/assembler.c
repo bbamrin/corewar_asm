@@ -34,7 +34,6 @@ void 	free_arg(void *arg_v, size_t arg_size)
 	if (arg_v)
 	{
 		arg = (t_arg *)arg_v;
-		//printf("huis\n");
 		ft_strdel(&arg->value);
 		ft_memdel((void **)&arg);
 		arg_size += 1;
@@ -67,21 +66,17 @@ void 	free_asm(t_asm *asm_ctx)
 	ft_memdel((void **)&asm_ctx);
 }
 
-void    print_asm(t_asm *asm_ctx)
+void	print_token(t_token *token)
 {
-	t_list  *token_l;
-	t_token *token;
+
 	t_list  *label_l;
 	t_label *label;
 	t_list  *arg_l;
 	t_arg   *arg;
 
-	token_l = ((asm_ctx->tokens));
-	while (token_l)
-	{
-		token = (t_token *)(token_l->content);
 		if (!token)
-			break;
+			return;
+		printf("%d | ", get_token_size(token));
 		label_l = token->labels;
 		printf("%d: ", token->position);
 		printf("| ");
@@ -93,7 +88,7 @@ void    print_asm(t_asm *asm_ctx)
 			printf("%s ", label->name);
 			label_l = label_l->next;
 		}
-		//
+
 		printf("| %s ",  token->operation.name);
 		arg_l = token->args;
 		printf("| ");
@@ -112,6 +107,21 @@ void    print_asm(t_asm *asm_ctx)
 			arg_l = arg_l->next;
 		}
 		printf("\n");
+}
+
+void    print_asm(t_asm *asm_ctx)
+{
+	t_list  *token_l;
+	t_token *token;
+
+
+	token_l = ((asm_ctx->tokens));
+	while (token_l)
+	{
+		token = (t_token *)(token_l->content);
+		if (!token)
+			break;
+		print_token(token);
 		token_l = token_l->next;
 	}
 }
@@ -155,6 +165,8 @@ int		main(int argc, char **argv)
 	//add name and comment size checking
 	//add handlind + before args
 	parse(asm_ctx);
+	if (!resolve_labels(asm_ctx))
+		printf("error when resolving labels\n");
 	print_asm(asm_ctx);
 	free_asm(asm_ctx);
 }
