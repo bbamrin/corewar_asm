@@ -1,10 +1,10 @@
 .name	"Leeloo"
 .comment "Multipass"
 .extend
-	
+
 begin:	ld %0,r6
 jump:	zjmp %:deb
-.code	00	
+.code	00
 pare:	st r0,:begin -52
 	st r0,:begin -44
 	st r0,:begin -52
@@ -28,7 +28,7 @@ toto:	st r15,-480
 	st r13,-484
 	st r14,-485
 	zjmp %-510
-deb:	
+deb:
 st1:	st r1,:lastlive1 +1
 st2:	st r1,:lastlive2 +1
 st3:	st r1,:lastlive3 +1
@@ -50,9 +50,9 @@ hop:	live %1
 	ld %0,r2
 	zjmp %:decal
 
-toto1:	zjmp %:toto	
+toto1:	zjmp %:toto
 pare1:	ld %0,r0
-	zjmp %:pare	
+	zjmp %:pare
 decal2: live %1
 	fork %:suite
 	live %1
@@ -70,7 +70,7 @@ decal2: live %1
 	ld %201200643,r8
 	ld %1879899667,r13
 	ld %167641600,r14
-	
+
 	fork %:separ2
 	live %4
 	ld %0x08F40370,r3   #ld %0x07F40370,r3
@@ -82,7 +82,7 @@ separ2:	live %3
 
 	xor r2,r2,r2
 	zjmp %:toto
-	
+
 padec2:	live %1
 	fork %:suite
 	live %1
@@ -90,7 +90,7 @@ padec2:	live %1
 	zjmp %:decal
 
 catch1:	zjmp %:catch
-	
+
 suite:	live %1
 	fork %:hop
 	live %1
@@ -134,7 +134,7 @@ lastlive3: live %1
 lastlive4: live %1
 	zjmp %:middle
 
-	
+
 decal:	live %1
 	fork %:pare1
 	live %1
@@ -154,7 +154,7 @@ decal:	live %1
 	ld %0x0B01FA03,r8
 	ld %0x700C01F9,r13
 	ld %0x0901E800,r14
-	
+
 	fork %:sepa
 	live %4
 	ld %0x07510370,r3
@@ -164,7 +164,7 @@ sepa:	live %3
 	ld %0x70037004,r3
 	xor r2,r2,r2
 	zjmp %:tot
-catch:	
+catch:
 	live %5
 	live %5
 	live %5
@@ -180,7 +180,7 @@ catch:
 	live %5
 	ld %0,r0
 	zjmp %:catch
-	
+
 fuite:	live %1
 	fork %:separe
 	live %4
@@ -191,8 +191,8 @@ separe:	live %3
 	ld %0x70037004,r3
 	xor r2,r2,r2
 	zjmp %:debut
-	
-		
+
+
 tot:	st r15,488
 	st r4,487
 	st r7,486
@@ -200,11 +200,11 @@ tot:	st r15,488
 	st r13,484
 	st r14,483
 	zjmp %458
-	
+
 debut:	st r3,4
 fin:
 
-avant:	
+avant:
 
 #	075103700370075103700771
 

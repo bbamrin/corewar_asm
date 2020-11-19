@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bbamrin/corewar_asm/includes/assembler.h
+../libft/libft.h
+/home/bbamrin/corewar_asm/libft/libft.h
+../libft/get_next_line.h
+/home/bbamrin/corewar_asm/libft/get_next_line.h
+op.h
+/home/bbamrin/corewar_asm/includes/op.h
+
+/home/bbamrin/corewar_asm/includes/op.h
+
+/home/bbamrin/corewar_asm/libft/get_next_line.h
+fcntl.h
+-
+sys/types.h
+-
+unistd.h
+-
+stdlib.h
+-
+
+/home/bbamrin/corewar_asm/libft/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/bbamrin/corewar_asm/srcs/assembler.c
+../includes/assembler.h
+/home/bbamrin/corewar_asm/includes/assembler.h
+stdio.h
+-
+

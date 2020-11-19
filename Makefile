@@ -1,6 +1,6 @@
 LIB     = libft/
-NAME    = pkathy.filler
-CFLAGS  = -Wall -Wextra -Werror -O2
+NAME    = asm
+CFLAGS  = -Wall -Wextra #-Werror
 CC      = gcc
 SRC_DIR	= srcs/
 
@@ -21,7 +21,7 @@ lib:
 $(OBJ_DIR):
 	@mkdir obj
 
-$(OBJ_DIR)%.o:$(SRC_DIR)%.c includes/filler.h
+$(OBJ_DIR)%.o:$(SRC_DIR)%.c includes/assembler.h
 	gcc $(CFLAGS) -c -I./$(HEADER) $< -o $@
 
 clean:
