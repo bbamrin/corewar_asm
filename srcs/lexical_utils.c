@@ -132,12 +132,10 @@ int		is_arg_valid(t_arg *arg, int type)
 		return (is_direct_valid(arg->value));
 	else if (arg->type == T_IND)
 		return (is_indirect_valid(arg->value));
-
-	//handle possible error
 	return (0);
 }
 
-int		is_arg_list_valid(t_asm *asm_ctx, t_list *args, t_op operation)
+void		is_arg_list_valid(t_asm *asm_ctx, t_list *args, t_op operation, int line)
 {
 	int	i;
 	t_list *tmp;
@@ -148,44 +146,25 @@ int		is_arg_list_valid(t_asm *asm_ctx, t_list *args, t_op operation)
 	{
 		++i;
 		if (i > operation.arg_count - 1)
-		{
-			//handle error
-			return (0);
-		}
+			throw_line_error(asm_ctx, "too much args", 0, line);
 		if (!is_arg_valid((t_arg *)tmp->content, operation.arg_types[i]))
-		{
-			//handle error
-			return (0);
-		}
+			throw_line_error(asm_ctx, "args not valid", 0, line);
 		tmp = tmp->next;
 	}
 	if (i != operation.arg_count - 1)
-		return (0);
-	return (1);
+		throw_line_error(asm_ctx, "not enough args", 0, line);
 }
 
-int		is_token_valid(t_asm *asm_ctx, t_token *token)
+void		is_token_valid(t_asm *asm_ctx, t_token *token)
 {
 	int i;
 
 	i = -1;
 	while ((asm_ctx->op_tab[++i]).name)
-	{
-
 		if (ft_strequ((token->operation).name, (asm_ctx->op_tab[i]).name))
 			break;
-	}
 	if (!(asm_ctx->op_tab[i].name))
-	{
-		//handle error
-		return (0);
-	}
-	if (!is_arg_list_valid(asm_ctx, token->args, asm_ctx->op_tab[i]))
-	{
-		printf("2\n");
-		//handle error
-		return (0);
-	}
-	return (1);
+		throw_line_error(asm_ctx, "wrong operation", 0, token->line_num);
+	is_arg_list_valid(asm_ctx, token->args, asm_ctx->op_tab[i], token->line_num);
 }
 

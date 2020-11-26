@@ -8,307 +8,309 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/bbamrin/corewar_asm/cmake-build-debug"/>
+				<Option working_dir="/Users/pkathy/corewar_asm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/bbamrin/corewar_asm/cmake-build-debug"/>
+				<Option working_dir="/Users/pkathy/corewar_asm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/bbamrin/corewar_asm/cmake-build-debug"/>
+				<Option working_dir="/Users/pkathy/corewar_asm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="corewar_asm">
-				<Option output="/home/bbamrin/corewar_asm/cmake-build-debug/corewar_asm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbamrin/corewar_asm/cmake-build-debug"/>
+				<Option output="/Users/pkathy/corewar_asm/cmake-build-debug/corewar_asm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pkathy/corewar_asm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bbamrin/corewar_asm/includes"/>
-					<Add directory="/home/bbamrin/corewar_asm/libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/pkathy/corewar_asm/includes"/>
+					<Add directory="/Users/pkathy/corewar_asm/libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar_asm"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar_asm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="corewar_asm/fast">
-				<Option output="/home/bbamrin/corewar_asm/cmake-build-debug/corewar_asm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbamrin/corewar_asm/cmake-build-debug"/>
+				<Option output="/Users/pkathy/corewar_asm/cmake-build-debug/corewar_asm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pkathy/corewar_asm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/bbamrin/corewar_asm/includes"/>
-					<Add directory="/home/bbamrin/corewar_asm/libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/pkathy/corewar_asm/includes"/>
+					<Add directory="/Users/pkathy/corewar_asm/libft"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar_asm/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bbamrin/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar_asm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pkathy/corewar_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/bbamrin/corewar_asm/includes/assembler.h">
+		<Unit filename="/Users/pkathy/corewar_asm/includes/assembler.h">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/includes/op.h">
+		<Unit filename="/Users/pkathy/corewar_asm/includes/op.h">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_atoi.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_atoi.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_bzero.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_bzero.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_concat_params.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_concat_params.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_isalnum.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_isalnum.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_isalpha.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_isalpha.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_isascii.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_isascii.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_isdigit.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_isdigit.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_isprint.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_isprint.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_itoa.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_itoa.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_list_size.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_list_size.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_lstadd.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_lstadd.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_lstdel.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_lstdel.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_lstdelone.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_lstdelone.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_lstiter.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_lstiter.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_lstmap.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_lstmap.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_lstnew.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_lstnew.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_memalloc.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_memalloc.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_memccpy.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_memccpy.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_memchr.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_memchr.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_memcmp.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_memcmp.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_memcpy.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_memcpy.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_memdel.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_memdel.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_memmove.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_memmove.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_memset.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_memset.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_putchar.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_putchar.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_putchar_fd.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_putendl.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_putendl.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_putendl_fd.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_putendl_fd.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_putnbr.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_putnbr.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_putnbr_fd.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_putstr.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_putstr.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_putstr_fd.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_putstr_fd.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strcapitalize.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strcapitalize.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strcat.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strcat.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strchr.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strchr.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strclr.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strclr.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strcmp.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strcmp.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strcpy.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strcpy.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strdel.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strdel.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strdup.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strdup.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strequ.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strequ.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_striter.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_striter.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_striteri.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_striteri.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strjoin.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strjoin.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strlcat.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strlcat.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strlen.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strlen.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strlowcase.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strlowcase.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strmap.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strmap.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strmapi.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strmapi.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strncat.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strncat.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strncmp.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strncmp.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strncpy.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strncpy.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strnequ.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strnequ.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strnew.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strnew.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strnstr.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strnstr.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strrchr.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strrchr.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strsplit.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strsplit.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strstr.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strstr.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strsub.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strsub.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strtrim.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strtrim.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_strupcase.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_strupcase.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_tolower.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_tolower.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/ft_toupper.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/ft_toupper.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/get_next_line.c">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/get_next_line.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/get_next_line.h">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/get_next_line.h">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/libft/libft.h">
+		<Unit filename="/Users/pkathy/corewar_asm/libft/libft.h">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/srcs/assemble.c">
+		<Unit filename="/Users/pkathy/corewar_asm/srcs/assemble.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/srcs/assembler.c">
+		<Unit filename="/Users/pkathy/corewar_asm/srcs/assembler.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/srcs/file_utils.c">
+		<Unit filename="/Users/pkathy/corewar_asm/srcs/file_utils.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/srcs/header_parse.c">
+		<Unit filename="/Users/pkathy/corewar_asm/srcs/header_parse.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/srcs/lexical_analysis.c">
+		<Unit filename="/Users/pkathy/corewar_asm/srcs/lexical_analysis.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/srcs/lexical_utils.c">
+		<Unit filename="/Users/pkathy/corewar_asm/srcs/lexical_utils.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/srcs/op.c">
+		<Unit filename="/Users/pkathy/corewar_asm/srcs/op.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/srcs/utils.c">
+		<Unit filename="/Users/pkathy/corewar_asm/srcs/utils.c">
 			<Option target="corewar_asm"/>
 		</Unit>
-		<Unit filename="/home/bbamrin/corewar_asm/CMakeLists.txt">
+		<Unit filename="/Users/pkathy/corewar_asm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

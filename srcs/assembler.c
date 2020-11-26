@@ -66,6 +66,34 @@ void 	free_asm(t_asm *asm_ctx)
 	ft_memdel((void **)&asm_ctx);
 }
 
+void 	throw_line_error(t_asm *asm_ctx, const char *msg1, const char *msg2, int line_num)
+{
+	if (msg1)
+		ft_putstr(msg1);
+	ft_putstr(" ");
+	if (msg2)
+		ft_putstr(msg2);
+	ft_putstr(" at line: ");
+	ft_putnbr(line_num);
+	ft_putstr("\n");
+	if (asm_ctx)
+		free_asm(asm_ctx);
+	exit(-1);
+}
+
+void 	throw_error(t_asm *asm_ctx, const char *msg1, const char *msg2)
+{
+	if (msg1)
+		ft_putstr(msg1);
+	ft_putstr(" ");
+	if (msg2)
+		ft_putstr(msg2);
+	ft_putstr("\n");
+	if (asm_ctx)
+		free_asm(asm_ctx);
+	exit(-1);
+}
+
 void	print_token(t_token *token)
 {
 
@@ -141,6 +169,7 @@ t_asm	*init()
 	asm_ctx->comment = ft_strdup("");
 	asm_ctx->cmd_mode = -1;
 	asm_ctx->champ_code_size = 0;
+	asm_ctx->line_count = 1;
 	if (*c)
 		asm_ctx->is_little_endian = 1;
 	else
@@ -154,41 +183,25 @@ int		main(int argc, char **argv)
 	t_asm	*asm_ctx;
 
 	if (argc != 2)
-	{
-		printf("not enough files\n");
-		return (0);
-	}
+		throw_error(0, "count of files is not valid", 0);
 	if (!(asm_ctx = init()))
-	{
-		printf("oops\n");
-		return (0);
-	}
+		throw_error(0, "error while creating main context", 0);
 	if (!(open_file(asm_ctx, argv[1])))
-	{
-		printf("cant open file\n");
-		return (0);
-	}
+		throw_error(asm_ctx, "cant open file", 0);
 	if (!set_header_command(asm_ctx))
-	{
-		printf("some errror while reading header\n");
-		return (0);
-	}
+		throw_error(asm_ctx, "some error while reading header", 0);
 	if (!set_header_command(asm_ctx))
-	{
-		printf("some errror while reading header\n");
-		return (0);
-	}
-	//add name and comment size checking
-	//add handlind + before args
-	parse(asm_ctx);
+		throw_error(asm_ctx, "some error while reading header", 0);
+	if (!parse(asm_ctx))
+		throw_error(asm_ctx, "some error while parsing\n", 0);
 	if (!resolve_labels(asm_ctx))
-		printf("error when resolving labels\n");
+		throw_error(asm_ctx, "error when resolving labels\n", 0);
 	//print_asm(asm_ctx);
-	assemble(asm_ctx);
-
-	for (int i = 0; i < asm_ctx->champ_code_size; ++i)
+	if (!assemble(asm_ctx))
+		throw_error(asm_ctx, "some error while parsing\n", 0);
+	/*for (int i = 0; i < asm_ctx->champ_code_size; ++i)
 		printf("%x ", asm_ctx->champ_code[i]);
-	printf("\n");
+	printf("\n");*/
 	//printf ("kek lol:%d\n", ~((-14 / 2) - 1));
 	free_asm(asm_ctx);
 }

@@ -26,6 +26,7 @@ int		create_token(t_asm *asm_ctx, int position) {
 	token.operation = (t_op){0, 0, {0}, 0, 0, 0, 0, 0};
 	token.labels = 0;
 	token.args = 0;
+	token.line_num = asm_ctx->line_count;
 	if (!(list_item = ft_lstnew(&token, sizeof(token))))
 		return (0);
 	asm_ctx->last_token = list_item;

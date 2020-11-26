@@ -39,6 +39,7 @@ typedef struct	s_token
 	t_op		operation;
 	t_list		*args;
 	int			position;
+	int			line_num;
 	int         is_full;
 }				t_token;
 
@@ -54,6 +55,7 @@ typedef struct s_asm
 	int 			cmd_mode;
 	int 			champ_code_size;
 	int 			is_little_endian;
+	int 			line_count;
 }				t_asm;
 
 int		skip_whitespaces(char *str, int *i);
@@ -65,7 +67,7 @@ int		open_file(t_asm *asm_ctx, char *fname);
 int		set_operation(t_asm *asm_ctx, char *str);
 void	init_op_tab(t_asm *asm_ctx);
 int		get_next_arg(t_asm *asm_ctx, char *line, int *i);
-int		is_token_valid(t_asm *asm_ctx, t_token *token);
+void	is_token_valid(t_asm *asm_ctx, t_token *token);
 int		get_cmd(t_asm *asm_ctx);
 int		get_token_size(t_token *token);
 int 	clean_trim(char **str_res, char *to_trim);
@@ -73,5 +75,7 @@ int		resolve_labels(t_asm *asm_ctx);
 void	print_token(t_token *token);
 int		assemble(t_asm *asm_ctx);
 int 	set_header_command(t_asm *asm_ctx);
+void 	throw_error(t_asm *asm_ctx, const char *msg1, const char *msg2);
+void 	throw_line_error(t_asm *asm_ctx, const char *msg1, const char *msg2, int line_num);
 
 #endif

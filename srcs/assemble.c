@@ -68,7 +68,7 @@ int 	get_distance(t_list *node1, t_list *node2)
 	return (result * sign);
 }
 
-int		convert_label(t_asm *asm_ctx, t_arg *arg, t_list *token)
+void	convert_label(t_asm *asm_ctx, t_arg *arg, t_list *token)
 {
 	t_list	*start_token;
 	t_list	*start_label;
@@ -89,12 +89,11 @@ int		convert_label(t_asm *asm_ctx, t_arg *arg, t_list *token)
 		start_token = start_token->next;
 	}
 	if (!end_token)
-		return (0);
+		throw_line_error(asm_ctx, "wrong label", arg->value + 1, ((t_token *)(token->content))->line_num);
 	if(!(dist = ft_itoa(get_distance(token, end_token))))
-		return (0);
+		throw_error(asm_ctx, "malloc error", 0);
 	ft_strdel(&arg->value);
 	arg->value = dist;
-	return (1);
 }
 
 int 	resolve_labels(t_asm *asm_ctx)
@@ -109,13 +108,8 @@ int 	resolve_labels(t_asm *asm_ctx)
 		while (start_arg)
 		{
 			if (((t_arg *)(start_arg->content))->value
-			&& ((t_arg *)(start_arg->content))->value[0] == LABEL_CHAR
-			&& !convert_label(asm_ctx, (t_arg *)(start_arg->content), start_token))
-			{
-				printf("error in position %d\n", ((t_token *)(start_token->content))->position);
-				return (0);
-			}
-
+			&& ((t_arg *)(start_arg->content))->value[0] == LABEL_CHAR)
+				convert_label(asm_ctx, (t_arg *)(start_arg->content), start_token);
 			start_arg = start_arg->next;
 		}
 		start_token = start_token->next;
@@ -155,14 +149,6 @@ void	set_byte_code(t_asm *asm_ctx, int data, int size, int *i)
 		data_tmp++;
 		(*i)++;
 	}
-}
-
-void print_bin(int n)
-{
-	if (n <= 0)
-		return;
-	print_bin(n/2);
-	printf("%d", n%2);
 }
 
 int 	set_args_byte_code(t_asm *asm_ctx, t_list *arg_l, int dir_size, int *i)

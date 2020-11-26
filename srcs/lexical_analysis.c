@@ -4,7 +4,6 @@
 
 int 	parse_args(t_asm *asm_ctx, char *line, int *i)
 {
-
 	int		i1;
 
 	if (!line[*i] || line[*i] == COMMENT_CHAR)
@@ -15,18 +14,9 @@ int 	parse_args(t_asm *asm_ctx, char *line, int *i)
 	while (get_next_arg(asm_ctx, line, i));
 	skip_whitespaces(line, i);
 	if (line[*i] && line[*i] != COMMENT_CHAR)
-	{
-		//handle error
-		return (0);
-	}
-	if (!is_token_valid(asm_ctx, asm_ctx->last_token->content))
-	{
-		//handle error
-		printf("token not valid\n");
-		return (0);
-	}
+		throw_line_error(asm_ctx, "wrong character", 0, ((t_token *)(asm_ctx->last_token->content))->line_num);
+	is_token_valid(asm_ctx, asm_ctx->last_token->content);
 	((t_token *)(asm_ctx->last_token->content))->is_full = 1;
-	//todo handle error
 	return (1);
 }
 
@@ -41,13 +31,10 @@ int 	parse_operation(t_asm *asm_ctx, char *line, int *i)
 	while (line[i1] && line[i1] != COMMENT_CHAR && !is_space(line[i1]) && line[i1] != DIRECT_CHAR)
 		++i1;
 	op = ft_strsub(line, *i, i1 - *i);
-	//printf("debug: %s\n", op);
 	if (!set_operation(asm_ctx, op))
 	{
-		//todo handle error
+		throw_line_error(asm_ctx, "wrong operation", op, ((t_token *)(asm_ctx->last_token->content))->line_num);
 		ft_strdel(&op);
-		printf("temp error msg: %d, %d %s\n", *i, i1 - *i, op);
-		return (0);
 	}
 	*i = i1;
 	ft_strdel(&op);
@@ -87,10 +74,9 @@ int		parse(t_asm *asm_ctx)
 		i = 0;
 		skip_whitespaces(line, &i);
 		if (ft_strlen(line) && (!(asm_ctx->last_token) || ((t_token *)(asm_ctx->last_token->content))->is_full))
-			//TODO proper error handling
 		{
 			if (!create_token(asm_ctx, cur_position))
-				return (0);
+				throw_error(asm_ctx, "malloc error", 0);
 			((t_token *)(asm_ctx->last_token->content))->is_full = 0;
 			cur_position++;
 		}
@@ -100,6 +86,7 @@ int		parse(t_asm *asm_ctx)
 		skip_whitespaces(line, &i);
 		parse_args(asm_ctx, line, &i);
 		ft_strdel(&line);
+		asm_ctx->line_count++;
 	}
 	return (1);
 }

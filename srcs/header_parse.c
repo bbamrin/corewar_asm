@@ -67,16 +67,11 @@ int 	skip_header_void(t_asm *asm_ctx, char **line, int *i)
 
 	while ((ret = get_next_line(asm_ctx->opened_fd, line)) > 0)
 	{
+		asm_ctx->line_count++;
 		*i = 0;
 		skip_whitespaces(*line, i);
-		//printf("%s i: %d\n", *line, *i);
 		if ((*line)[*i] && (*line)[*i] != COMMENT_CHAR)
-		{
-			//printf("debug\n");
-			//printf("%s\n", *line);
 			return (1);
-		}
-
 		else
 			ft_strdel(line);
 	}
@@ -92,9 +87,7 @@ int		get_cmd(t_asm *asm_ctx)
 	i = 0;
 	if ((ret = skip_header_void(asm_ctx, &line, &i)) <= 0)
 		return (ret);
-	//skip_whitespaces(line, &i);
 	set_cmd_mode(asm_ctx, &line[i]);
-	//printf("%s\n", line);
 	if (asm_ctx->cmd_mode == -1)
 		return (-1);
 	i += ft_strlen(asm_ctx->cmd_mode ? COMMENT_CMD_STRING : NAME_CMD_STRING);
@@ -105,7 +98,8 @@ int		get_cmd(t_asm *asm_ctx)
 	ft_strdel(&line);
 	if (ret <= 0)
 		return (ret);
-	while (get_next_line(asm_ctx->opened_fd, &line)
+	while (++(asm_ctx->line_count) == asm_ctx->line_count
+	&& get_next_line(asm_ctx->opened_fd, &line)
 	&& (ret = read_cmd(asm_ctx, line)) == 1)
 		ft_strdel(&line);
 	ft_strdel(&line);
