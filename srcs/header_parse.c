@@ -80,7 +80,6 @@ int 	skip_header_void(t_asm *asm_ctx, char **line, int *i)
 		else
 			ft_strdel(line);
 	}
-	printf("debug\n");
 	return (ret);
 }
 
@@ -111,4 +110,28 @@ int		get_cmd(t_asm *asm_ctx)
 		ft_strdel(&line);
 	ft_strdel(&line);
 	return (ret);
+}
+
+int 	set_header_command(t_asm *asm_ctx)
+{
+	int		ret;
+	int		len;
+	int		required_len;
+	char	*res;
+
+	ret = get_cmd(asm_ctx);
+	if (ret != 0)
+		return (0);
+	required_len = asm_ctx->cmd_mode ? COMMENT_LENGTH : PROG_NAME_LENGTH;
+	len = asm_ctx->cmd_mode ? ft_strlen(asm_ctx->comment) : ft_strlen(asm_ctx->name);
+	if (ret != 0 || len > required_len)
+		return (0);
+	res = (char *)ft_memalloc(required_len);
+	ft_memmove(res, asm_ctx->cmd_mode ? asm_ctx->comment : asm_ctx->name, len);
+	free(asm_ctx->cmd_mode ? asm_ctx->comment : asm_ctx->name);
+	if (asm_ctx->cmd_mode)
+		asm_ctx->comment = res;
+	else
+		asm_ctx->name = res;
+	return (1);
 }

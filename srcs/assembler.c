@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "../includes/assembler.h"
-#include <stdio.h>
-
 
 void 	free_label(void *label_v, size_t label_size)
 {
@@ -59,10 +57,12 @@ void 	free_token(void *token_v, size_t token_size)
 
 void 	free_asm(t_asm *asm_ctx)
 {
+	close(asm_ctx->opened_fd);
 	ft_strdel(&(asm_ctx->name));
 	ft_strdel(&(asm_ctx->comment));
 	if (asm_ctx->tokens)
 		ft_lstdel(&asm_ctx->tokens, &free_token);
+	ft_memdel((void **)&(asm_ctx->champ_code));
 	ft_memdel((void **)&asm_ctx);
 }
 
@@ -129,13 +129,23 @@ void    print_asm(t_asm *asm_ctx)
 t_asm	*init()
 {
 	t_asm *asm_ctx;
+	unsigned int i;
+	unsigned char *c;
 
+	i = 1;
+	c = (unsigned char*)&i;;
 	if (!(asm_ctx = ft_memalloc(sizeof(t_asm))))
 		return (0);
 	init_op_tab(asm_ctx);
 	asm_ctx->name = ft_strdup("");
 	asm_ctx->comment = ft_strdup("");
 	asm_ctx->cmd_mode = -1;
+	asm_ctx->champ_code_size = 0;
+	if (*c)
+		asm_ctx->is_little_endian = 1;
+	else
+		asm_ctx->is_little_endian = 0;
+	asm_ctx->is_little_endian = 1;
 	return (asm_ctx);
 }
 
@@ -158,15 +168,27 @@ int		main(int argc, char **argv)
 		printf("cant open file\n");
 		return (0);
 	}
-	int ret1 = get_cmd(asm_ctx);
-	int ret2 = get_cmd(asm_ctx);
-	printf("return: %d\nname: %s\n", ret1, asm_ctx->name);
-	printf("return: %d\ncomment: %s\n", ret2, asm_ctx->comment);
+	if (!set_header_command(asm_ctx))
+	{
+		printf("some errror while reading header\n");
+		return (0);
+	}
+	if (!set_header_command(asm_ctx))
+	{
+		printf("some errror while reading header\n");
+		return (0);
+	}
 	//add name and comment size checking
 	//add handlind + before args
 	parse(asm_ctx);
 	if (!resolve_labels(asm_ctx))
 		printf("error when resolving labels\n");
-	print_asm(asm_ctx);
+	//print_asm(asm_ctx);
+	assemble(asm_ctx);
+
+	for (int i = 0; i < asm_ctx->champ_code_size; ++i)
+		printf("%x ", asm_ctx->champ_code[i]);
+	printf("\n");
+	//printf ("kek lol:%d\n", ~((-14 / 2) - 1));
 	free_asm(asm_ctx);
 }

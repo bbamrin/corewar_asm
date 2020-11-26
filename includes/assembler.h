@@ -44,13 +44,16 @@ typedef struct	s_token
 
 typedef struct s_asm
 {
-	t_op		op_tab[17];
-	t_list		*tokens;
-	t_list		*last_token;
-	char		*name;
-	char		*comment;
-	int			opened_fd;
-	int 		cmd_mode;
+	t_op			op_tab[17];
+	t_list			*tokens;
+	t_list			*last_token;
+	char			*name;
+	char			*comment;
+	unsigned char	*champ_code;
+	int				opened_fd;
+	int 			cmd_mode;
+	int 			champ_code_size;
+	int 			is_little_endian;
 }				t_asm;
 
 int		skip_whitespaces(char *str, int *i);
@@ -68,5 +71,7 @@ int		get_token_size(t_token *token);
 int 	clean_trim(char **str_res, char *to_trim);
 int		resolve_labels(t_asm *asm_ctx);
 void	print_token(t_token *token);
+int		assemble(t_asm *asm_ctx);
+int 	set_header_command(t_asm *asm_ctx);
 
 #endif
