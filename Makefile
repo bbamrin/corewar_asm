@@ -1,6 +1,6 @@
 LIB     = libft/
 NAME    = asm
-CFLAGS  = -Wall -Wextra #-Werror
+CFLAGS  = -Wall -Wextra -Werror
 CC      = gcc
 SRC_DIR	= srcs/
 

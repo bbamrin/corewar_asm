@@ -40,12 +40,14 @@ int		create_champ(t_asm *asm_ctx)
 	if (fd < 0)
 		return (0);
 	magic = COREWAR_EXEC_MAGIC;
-	magic = get_big_endian_int(magic);
+	if (asm_ctx->is_little_endian)
+		magic = get_big_endian_int(magic);
 	write(fd, &magic, 4);
 	write(fd, asm_ctx->name, PROG_NAME_LENGTH);
 	magic = 0;
 	write(fd, &magic, 4);
-	magic = get_big_endian_int(asm_ctx->champ_code_size);
+	if (asm_ctx->is_little_endian)
+		magic = get_big_endian_int(asm_ctx->champ_code_size);
 	write(fd, &(magic), 4);
 	magic = 0;
 	write(fd, asm_ctx->comment, COMMENT_LENGTH);
