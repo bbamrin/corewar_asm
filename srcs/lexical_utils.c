@@ -12,103 +12,6 @@
 
 #include "../includes/assembler.h"
 
-int		set_operation(t_asm *asm_ctx, char *str)
-{
-	int	i;
-
-	i = -1;
-	while (++i < 17)
-	{
-		if (ft_strequ(str, asm_ctx->op_tab[i].name))
-		{
-			((t_token *)(asm_ctx->last_token->content))->operation = asm_ctx->op_tab[i];
-			return (1);
-		}
-	}
-	return (0);
-}
-
-int		get_next_arg(t_asm *asm_ctx, char *line, int *i)
-{
-	int		i1;
-	t_arg	arg;
-
-	if (!line[*i] || line[*i] == COMMENT_CHAR)
-	{
-		arg.type = T_DIR;
-		arg.value = ft_strdup("");
-		ft_lstadd_end(&((t_token *)(asm_ctx->last_token->content))->args, ft_lstnew(&arg, sizeof(t_arg)));
-		return (0);
-	}
-	skip_whitespaces(line, i);
-	i1 = *i;
-	if (line[*i] == DIRECT_CHAR)
-	{
-		arg.type = T_DIR;
-		(*i)++;
-	}
-	else if (line[*i] == 'r')
-		arg.type = T_REG;
-	else
-		arg.type = T_IND;
-	while (line[i1] && line[i1] != COMMENT_CHAR && line[i1] != SEPARATOR_CHAR)
-		++(i1);
-	clean_trim(&(arg.value), ft_strsub(line, *i, i1  - *i));
-	ft_lstadd_end(&((t_token *)(asm_ctx->last_token->content))->args, ft_lstnew(&arg, sizeof(t_arg)));
-	if (line[i1] == SEPARATOR_CHAR)
-		i1++;
-	else
-	{
-		*i = i1;
-		return (0);
-	}
-	*i = i1;
-	return (1);
-}
-
-int		is_register_valid(char *val)
-{
-	int i;
-	int reg_num;
-
-	i = 0;
-
-	if (!val[1])
-		return (0);
-	while (val[++i])
-	{
-		if(!(val[i] <= '9' && val[i] >= '0'))
-			return (0);
-	}
-	reg_num = ft_atoi(&val[1]);
-	if (reg_num > REG_NUMBER)
-		return (0);
-	return (1);
-}
-
-int		is_direct_valid(char *val)
-{
-	int i;
-
-	if (val[0] == LABEL_CHAR)
-	{
-		i = 0;
-		while (val[++i])
-			if (!ft_strchr(LABEL_CHARS, val[i]))
-				return (0);
-	}
-	else
-	{
-		i = -1;
-		if (val[0] == '-' || val[0] == '+')
-			++i;
-		while (val[++i])
-			if(!(val[i] <= '9' && val[i] >= '0'))
-				return (0);
-	}
-	return (1);
-}
-
 int		is_indirect_valid(char *val)
 {
 	int i;
@@ -126,7 +29,7 @@ int		is_indirect_valid(char *val)
 		if (val[0] == '-' || val[0] == '+')
 			++i;
 		while (val[++i])
-			if(!(val[i] <= '9' && val[i] >= '0'))
+			if (!(val[i] <= '9' && val[i] >= '0'))
 				return (0);
 	}
 	return (1);
@@ -145,10 +48,11 @@ int		is_arg_valid(t_arg *arg, int type)
 	return (0);
 }
 
-void		is_arg_list_valid(t_asm *asm_ctx, t_list *args, t_op operation, int line)
+void	is_arg_list_valid(t_asm *asm_ctx,
+t_list *args, t_op operation, int line)
 {
-	int	i;
-	t_list *tmp;
+	int		i;
+	t_list	*tmp;
 
 	i = -1;
 	tmp = args;
@@ -165,16 +69,16 @@ void		is_arg_list_valid(t_asm *asm_ctx, t_list *args, t_op operation, int line)
 		throw_line_error(asm_ctx, "not enough args", 0, line);
 }
 
-void		is_token_valid(t_asm *asm_ctx, t_token *token)
+void	is_token_valid(t_asm *asm_ctx, t_token *token)
 {
 	int i;
 
 	i = -1;
 	while ((asm_ctx->op_tab[++i]).name)
 		if (ft_strequ((token->operation).name, (asm_ctx->op_tab[i]).name))
-			break;
+			break ;
 	if (!(asm_ctx->op_tab[i].name))
 		throw_line_error(asm_ctx, "wrong operation", 0, token->line_num);
-	is_arg_list_valid(asm_ctx, token->args, asm_ctx->op_tab[i], token->line_num);
+	is_arg_list_valid(asm_ctx,
+	token->args, asm_ctx->op_tab[i], token->line_num);
 }
-

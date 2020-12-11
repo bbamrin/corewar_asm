@@ -13,7 +13,7 @@ all: lib $(NAME)
 
 $(NAME): $(OBJ_DIR) $(addprefix $(OBJ_DIR), $(OBJS))
 	@gcc $(CFLAGS) $(addprefix $(OBJ_DIR), $(OBJS)) -I $(HEADER) -L libft $(LIB)libft.a -o $(NAME)
-	@echo "\033[103;33mpkathy.filler DONE\033[0m"
+	@echo "\033[103;33masm DONE\033[0m"
 
 lib:
 	@make -C $(LIB)

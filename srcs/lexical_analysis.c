@@ -19,9 +19,12 @@ void	parse_args(t_asm *asm_ctx, char *line, int *i)
 	if (!line[*i] || line[*i] == COMMENT_CHAR)
 		return ;
 	i1 = *i;
-	while (line[i1] && line[i1] != COMMENT_CHAR && (line[i1] != ' ' || line[i1] != '\n'))
+	while (line[i1]
+	&& line[i1] != COMMENT_CHAR && (line[i1] != ' ' || line[i1] != '\n'))
 		++i1;
-	while (get_next_arg(asm_ctx, line, i));
+	while (get_next_arg(asm_ctx, line, i))
+	{
+	}
 	skip_whitespaces(line, i);
 	((t_token *)(asm_ctx->last_token->content))->line_num = asm_ctx->line_count;
 	if (line[*i] && line[*i] != COMMENT_CHAR)
@@ -40,12 +43,14 @@ void	parse_operation(t_asm *asm_ctx, char *line, int *i)
 		return ;
 	i1 = *i;
 	((t_token *)(asm_ctx->last_token->content))->line_num = asm_ctx->line_count;
-	while (line[i1] && line[i1] != COMMENT_CHAR && !is_space(line[i1]) && line[i1] != DIRECT_CHAR)
+	while (line[i1] && line[i1] != COMMENT_CHAR
+	&& !is_space(line[i1]) && line[i1] != DIRECT_CHAR)
 		++i1;
 	op = ft_strsub(line, *i, i1 - *i);
 	if (!set_operation(asm_ctx, op))
 	{
-		throw_line_error(asm_ctx, "wrong operation", op, ((t_token *)(asm_ctx->last_token->content))->line_num);
+		throw_line_error(asm_ctx, "wrong operation",
+		op, ((t_token *)(asm_ctx->last_token->content))->line_num);
 		ft_strdel(&op);
 	}
 	*i = i1;
@@ -61,12 +66,14 @@ void	parse_label(t_asm *asm_ctx, char *line, int *i)
 		return ;
 	i1 = *i;
 	((t_token *)(asm_ctx->last_token->content))->line_num = asm_ctx->line_count;
-	while (line[i1] && line[i1] != COMMENT_CHAR && ft_strchr(LABEL_CHARS, line[i1]))
+	while (line[i1]
+	&& line[i1] != COMMENT_CHAR && ft_strchr(LABEL_CHARS, line[i1]))
 		++(i1);
 	if (line[i1] == LABEL_CHAR)
 	{
 		label.name = ft_strsub(line, *i, i1 - *i);
-		ft_lstadd(&((t_token *)(asm_ctx->last_token->content))->labels, ft_lstnew(&label, sizeof(label)));
+		ft_lstadd(&((t_token *)(asm_ctx->last_token->content))->labels,
+		ft_lstnew(&label, sizeof(label)));
 		i1++;
 		*i = i1;
 	}

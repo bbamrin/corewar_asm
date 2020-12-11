@@ -15,8 +15,8 @@
 int		open_file(t_asm *asm_ctx, char *fname)
 {
 	int		fd;
-	int 	len;
-	char 	buf[1];
+	int		len;
+	char	buf[1];
 
 	if ((fd = open(fname, O_RDONLY)) < 0)
 		return (0);

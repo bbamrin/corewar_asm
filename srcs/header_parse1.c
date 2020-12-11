@@ -12,64 +12,25 @@
 
 #include "../includes/assembler.h"
 
-int		is_space(char c)
-{
-	return (c == ' ' || c == '\t');
-}
-
-int		skip_whitespaces(char *str, int *i)
-{
-	int	i1;
-
-	i1 = *i;
-	while (is_space(str[i1]))
-		i1++;
-	*i = i1;
-	return (0);
-}
-
-int		create_token(t_asm *asm_ctx, int position)
-{
-	t_token	token;
-	t_list	*list_item;
-
-	token.position = position;
-	token.is_full = 0;
-	token.operation = (t_op){0, 0, {0}, 0, 0, 0, 0, 0};
-	token.labels = 0;
-	token.args = 0;
-	token.line_num = asm_ctx->line_count;
-	if (!(list_item = ft_lstnew(&token, sizeof(token))))
-		return (0);
-	asm_ctx->last_token = list_item;
-	ft_lstadd_end(&(asm_ctx->tokens), list_item);
-	return (1);
-}
-
-void	ft_lstadd_end(t_list **alst, t_list *new)
-{
-	t_list	*temp;
-
-	if (!alst)
-		return ;
-	if (!(*alst))
-	{
-		*alst = new;
-		return ;
-	}
-	temp = *alst;
-	while (temp->next)
-		temp = temp->next;
-	temp->next = new;
-}
-
-int		clean_trim(char **str_res, char *to_trim)
+int	concat_cmd(t_asm *asm_ctx, char *line, int start, int len)
 {
 	char	*tmp;
+	char	*tmp1;
+	char	*result;
 
-	tmp = to_trim;
-	if (!to_trim || !(*str_res = ft_strtrim(to_trim)))
+	if (!(tmp = ft_strsub(line, start, len)))
 		return (0);
+	tmp1 = asm_ctx->cmd_mode ? asm_ctx->comment : asm_ctx->name;
+	if (!(result = ft_strjoin(tmp1, tmp)))
+	{
+		ft_strdel(&tmp);
+		return (0);
+	}
+	if (asm_ctx->cmd_mode == 1)
+		asm_ctx->comment = result;
+	else if (asm_ctx->cmd_mode == 0)
+		asm_ctx->name = result;
+	ft_strdel(&tmp1);
 	ft_strdel(&tmp);
 	return (1);
 }

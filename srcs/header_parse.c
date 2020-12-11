@@ -12,33 +12,10 @@
 
 #include "../includes/assembler.h"
 
-int 	concat_cmd(t_asm *asm_ctx, char *line, int start, int len)
+int		read_cmd(t_asm *asm_ctx, char *line)
 {
-	char	*tmp;
-	char	*tmp1;
-	char 	*result;
-
-	if (!(tmp = ft_strsub(line, start, len)))
-		return (0);
-	tmp1 = asm_ctx->cmd_mode ? asm_ctx->comment : asm_ctx->name;
-	if (!(result = ft_strjoin(tmp1, tmp)))
-	{
-		ft_strdel(&tmp);
-		return (0);
-	}
-	if (asm_ctx->cmd_mode == 1)
-		asm_ctx->comment = result;
-	else if (asm_ctx->cmd_mode == 0)
-		asm_ctx->name = result;
-	ft_strdel(&tmp1);
-	ft_strdel(&tmp);
-	return (1);
-}
-
-int 	read_cmd(t_asm *asm_ctx, char *line)
-{
-	int i;
-	char *sep;
+	int		i;
+	char	*sep;
 
 	if (!line[0])
 	{
@@ -62,7 +39,7 @@ int 	read_cmd(t_asm *asm_ctx, char *line)
 	return (1);
 }
 
-void 	set_cmd_mode(t_asm *asm_ctx, char *line)
+void	set_cmd_mode(t_asm *asm_ctx, char *line)
 {
 	if (!ft_strncmp(line, NAME_CMD_STRING, ft_strlen(NAME_CMD_STRING)))
 	{
@@ -71,7 +48,8 @@ void 	set_cmd_mode(t_asm *asm_ctx, char *line)
 			throw_error(asm_ctx, "expected only one definition of name", 0);
 		asm_ctx->was_name = 1;
 	}
-	else if (!ft_strncmp(line, COMMENT_CMD_STRING, ft_strlen(COMMENT_CMD_STRING)))
+	else if (!ft_strncmp(line,
+			COMMENT_CMD_STRING, ft_strlen(COMMENT_CMD_STRING)))
 	{
 		asm_ctx->cmd_mode = 1;
 		if (asm_ctx->was_comment)
@@ -82,7 +60,7 @@ void 	set_cmd_mode(t_asm *asm_ctx, char *line)
 		asm_ctx->cmd_mode = -1;
 }
 
-int 	skip_header_void(t_asm *asm_ctx, char **line, int *i)
+int		skip_header_void(t_asm *asm_ctx, char **line, int *i)
 {
 	int ret;
 
@@ -102,7 +80,7 @@ int 	skip_header_void(t_asm *asm_ctx, char **line, int *i)
 int		get_cmd(t_asm *asm_ctx)
 {
 	int		i;
-	int 	ret;
+	int		ret;
 	char	*line;
 
 	i = 0;
@@ -127,7 +105,7 @@ int		get_cmd(t_asm *asm_ctx)
 	return (ret);
 }
 
-int 	set_header_command(t_asm *asm_ctx)
+int		set_header_command(t_asm *asm_ctx)
 {
 	int		ret;
 	int		len;
@@ -138,7 +116,8 @@ int 	set_header_command(t_asm *asm_ctx)
 	if (ret != 0)
 		return (0);
 	required_len = asm_ctx->cmd_mode ? COMMENT_LENGTH : PROG_NAME_LENGTH;
-	len = asm_ctx->cmd_mode ? ft_strlen(asm_ctx->comment) : ft_strlen(asm_ctx->name);
+	len = asm_ctx->cmd_mode
+			? ft_strlen(asm_ctx->comment) : ft_strlen(asm_ctx->name);
 	if (ret != 0 || len > required_len)
 		return (0);
 	res = (char *)ft_memalloc(required_len);
