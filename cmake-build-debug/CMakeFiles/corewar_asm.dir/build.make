@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /snap/clion/135/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /snap/clion/135/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pkathy/corewar_asm
+CMAKE_SOURCE_DIR = /home/bbamrin/corewar_asm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pkathy/corewar_asm/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bbamrin/corewar_asm/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/corewar_asm.dir/depend.make
@@ -79,939 +79,939 @@ include CMakeFiles/corewar_asm.dir/flags.make
 
 CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.o   -c /Users/pkathy/corewar_asm/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.o   -c /home/bbamrin/corewar_asm/libft/ft_atoi.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_atoi.c > CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_atoi.c > CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_atoi.c -o CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_atoi.c -o CMakeFiles/corewar_asm.dir/libft/ft_atoi.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.o   -c /Users/pkathy/corewar_asm/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.o   -c /home/bbamrin/corewar_asm/libft/ft_bzero.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_bzero.c > CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_bzero.c > CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_bzero.c -o CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_bzero.c -o CMakeFiles/corewar_asm.dir/libft/ft_bzero.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.o: ../libft/ft_concat_params.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.o   -c /Users/pkathy/corewar_asm/libft/ft_concat_params.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.o   -c /home/bbamrin/corewar_asm/libft/ft_concat_params.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_concat_params.c > CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_concat_params.c > CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_concat_params.c -o CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_concat_params.c -o CMakeFiles/corewar_asm.dir/libft/ft_concat_params.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.o   -c /Users/pkathy/corewar_asm/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.o   -c /home/bbamrin/corewar_asm/libft/ft_isalnum.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_isalnum.c > CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_isalnum.c > CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_isalnum.c -o CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_isalnum.c -o CMakeFiles/corewar_asm.dir/libft/ft_isalnum.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.o   -c /Users/pkathy/corewar_asm/libft/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.o   -c /home/bbamrin/corewar_asm/libft/ft_isalpha.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_isalpha.c > CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_isalpha.c > CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_isalpha.c -o CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_isalpha.c -o CMakeFiles/corewar_asm.dir/libft/ft_isalpha.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.o: ../libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.o   -c /Users/pkathy/corewar_asm/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.o   -c /home/bbamrin/corewar_asm/libft/ft_isascii.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_isascii.c > CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_isascii.c > CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_isascii.c -o CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_isascii.c -o CMakeFiles/corewar_asm.dir/libft/ft_isascii.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.o   -c /Users/pkathy/corewar_asm/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.o   -c /home/bbamrin/corewar_asm/libft/ft_isdigit.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_isdigit.c > CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_isdigit.c > CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_isdigit.c -o CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_isdigit.c -o CMakeFiles/corewar_asm.dir/libft/ft_isdigit.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.o: ../libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.o   -c /Users/pkathy/corewar_asm/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.o   -c /home/bbamrin/corewar_asm/libft/ft_isprint.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_isprint.c > CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_isprint.c > CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_isprint.c -o CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_isprint.c -o CMakeFiles/corewar_asm.dir/libft/ft_isprint.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.o   -c /Users/pkathy/corewar_asm/libft/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.o   -c /home/bbamrin/corewar_asm/libft/ft_itoa.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_itoa.c > CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_itoa.c > CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_itoa.c -o CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_itoa.c -o CMakeFiles/corewar_asm.dir/libft/ft_itoa.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.o: ../libft/ft_list_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.o   -c /Users/pkathy/corewar_asm/libft/ft_list_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.o   -c /home/bbamrin/corewar_asm/libft/ft_list_size.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_list_size.c > CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_list_size.c > CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_list_size.c -o CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_list_size.c -o CMakeFiles/corewar_asm.dir/libft/ft_list_size.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.o: ../libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.o   -c /Users/pkathy/corewar_asm/libft/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.o   -c /home/bbamrin/corewar_asm/libft/ft_lstadd.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_lstadd.c > CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_lstadd.c > CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_lstadd.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_lstadd.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstadd.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.o: ../libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.o   -c /Users/pkathy/corewar_asm/libft/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.o   -c /home/bbamrin/corewar_asm/libft/ft_lstdel.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_lstdel.c > CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_lstdel.c > CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_lstdel.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_lstdel.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstdel.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.o   -c /Users/pkathy/corewar_asm/libft/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.o   -c /home/bbamrin/corewar_asm/libft/ft_lstdelone.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_lstdelone.c > CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_lstdelone.c > CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_lstdelone.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_lstdelone.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstdelone.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.o: ../libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.o   -c /Users/pkathy/corewar_asm/libft/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.o   -c /home/bbamrin/corewar_asm/libft/ft_lstiter.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_lstiter.c > CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_lstiter.c > CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_lstiter.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_lstiter.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstiter.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.o: ../libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.o   -c /Users/pkathy/corewar_asm/libft/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.o   -c /home/bbamrin/corewar_asm/libft/ft_lstmap.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_lstmap.c > CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_lstmap.c > CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_lstmap.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_lstmap.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstmap.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.o: ../libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.o   -c /Users/pkathy/corewar_asm/libft/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.o   -c /home/bbamrin/corewar_asm/libft/ft_lstnew.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_lstnew.c > CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_lstnew.c > CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_lstnew.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_lstnew.c -o CMakeFiles/corewar_asm.dir/libft/ft_lstnew.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.o   -c /Users/pkathy/corewar_asm/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.o   -c /home/bbamrin/corewar_asm/libft/ft_memalloc.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_memalloc.c > CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_memalloc.c > CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_memalloc.c -o CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_memalloc.c -o CMakeFiles/corewar_asm.dir/libft/ft_memalloc.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.o   -c /Users/pkathy/corewar_asm/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.o   -c /home/bbamrin/corewar_asm/libft/ft_memccpy.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_memccpy.c > CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_memccpy.c > CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_memccpy.c -o CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_memccpy.c -o CMakeFiles/corewar_asm.dir/libft/ft_memccpy.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.o   -c /Users/pkathy/corewar_asm/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.o   -c /home/bbamrin/corewar_asm/libft/ft_memchr.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_memchr.c > CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_memchr.c > CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_memchr.c -o CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_memchr.c -o CMakeFiles/corewar_asm.dir/libft/ft_memchr.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.o   -c /Users/pkathy/corewar_asm/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.o   -c /home/bbamrin/corewar_asm/libft/ft_memcmp.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_memcmp.c > CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_memcmp.c > CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_memcmp.c -o CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_memcmp.c -o CMakeFiles/corewar_asm.dir/libft/ft_memcmp.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.o   -c /Users/pkathy/corewar_asm/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.o   -c /home/bbamrin/corewar_asm/libft/ft_memcpy.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_memcpy.c > CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_memcpy.c > CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_memcpy.c -o CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_memcpy.c -o CMakeFiles/corewar_asm.dir/libft/ft_memcpy.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.o   -c /Users/pkathy/corewar_asm/libft/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.o   -c /home/bbamrin/corewar_asm/libft/ft_memdel.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_memdel.c > CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_memdel.c > CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_memdel.c -o CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_memdel.c -o CMakeFiles/corewar_asm.dir/libft/ft_memdel.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.o   -c /Users/pkathy/corewar_asm/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.o   -c /home/bbamrin/corewar_asm/libft/ft_memmove.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_memmove.c > CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_memmove.c > CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_memmove.c -o CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_memmove.c -o CMakeFiles/corewar_asm.dir/libft/ft_memmove.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_memset.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memset.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memset.c.o   -c /Users/pkathy/corewar_asm/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_memset.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_memset.c.o   -c /home/bbamrin/corewar_asm/libft/ft_memset.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_memset.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_memset.c > CMakeFiles/corewar_asm.dir/libft/ft_memset.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_memset.c > CMakeFiles/corewar_asm.dir/libft/ft_memset.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_memset.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_memset.c -o CMakeFiles/corewar_asm.dir/libft/ft_memset.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_memset.c -o CMakeFiles/corewar_asm.dir/libft/ft_memset.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.o: ../libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.o   -c /Users/pkathy/corewar_asm/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.o   -c /home/bbamrin/corewar_asm/libft/ft_putchar.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_putchar.c > CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_putchar.c > CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_putchar.c -o CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_putchar.c -o CMakeFiles/corewar_asm.dir/libft/ft_putchar.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.o   -c /Users/pkathy/corewar_asm/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.o   -c /home/bbamrin/corewar_asm/libft/ft_putchar_fd.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_putchar_fd.c > CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_putchar_fd.c > CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_putchar_fd.c -o CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_putchar_fd.c -o CMakeFiles/corewar_asm.dir/libft/ft_putchar_fd.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.o: ../libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.o   -c /Users/pkathy/corewar_asm/libft/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.o   -c /home/bbamrin/corewar_asm/libft/ft_putendl.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_putendl.c > CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_putendl.c > CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_putendl.c -o CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_putendl.c -o CMakeFiles/corewar_asm.dir/libft/ft_putendl.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.o   -c /Users/pkathy/corewar_asm/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.o   -c /home/bbamrin/corewar_asm/libft/ft_putendl_fd.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_putendl_fd.c > CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_putendl_fd.c > CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_putendl_fd.c -o CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_putendl_fd.c -o CMakeFiles/corewar_asm.dir/libft/ft_putendl_fd.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.o: ../libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.o   -c /Users/pkathy/corewar_asm/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.o   -c /home/bbamrin/corewar_asm/libft/ft_putnbr.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_putnbr.c > CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_putnbr.c > CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_putnbr.c -o CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_putnbr.c -o CMakeFiles/corewar_asm.dir/libft/ft_putnbr.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.o   -c /Users/pkathy/corewar_asm/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.o   -c /home/bbamrin/corewar_asm/libft/ft_putnbr_fd.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_putnbr_fd.c > CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_putnbr_fd.c > CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_putnbr_fd.c -o CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_putnbr_fd.c -o CMakeFiles/corewar_asm.dir/libft/ft_putnbr_fd.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.o   -c /Users/pkathy/corewar_asm/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.o   -c /home/bbamrin/corewar_asm/libft/ft_putstr.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_putstr.c > CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_putstr.c > CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_putstr.c -o CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_putstr.c -o CMakeFiles/corewar_asm.dir/libft/ft_putstr.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.o   -c /Users/pkathy/corewar_asm/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.o   -c /home/bbamrin/corewar_asm/libft/ft_putstr_fd.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_putstr_fd.c > CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_putstr_fd.c > CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_putstr_fd.c -o CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_putstr_fd.c -o CMakeFiles/corewar_asm.dir/libft/ft_putstr_fd.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.o: ../libft/ft_strcapitalize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strcapitalize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strcapitalize.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strcapitalize.c > CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strcapitalize.c > CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strcapitalize.c -o CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strcapitalize.c -o CMakeFiles/corewar_asm.dir/libft/ft_strcapitalize.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strcat.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strcat.c > CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strcat.c > CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strcat.c -o CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strcat.c -o CMakeFiles/corewar_asm.dir/libft/ft_strcat.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strchr.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strchr.c > CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strchr.c > CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strchr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strchr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strchr.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.o: ../libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strclr.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strclr.c > CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strclr.c > CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strclr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strclr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strclr.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strcmp.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strcmp.c > CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strcmp.c > CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strcmp.c -o CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strcmp.c -o CMakeFiles/corewar_asm.dir/libft/ft_strcmp.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strcpy.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strcpy.c > CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strcpy.c > CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strcpy.c -o CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strcpy.c -o CMakeFiles/corewar_asm.dir/libft/ft_strcpy.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strdel.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strdel.c > CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strdel.c > CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strdel.c -o CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strdel.c -o CMakeFiles/corewar_asm.dir/libft/ft_strdel.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strdup.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strdup.c > CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strdup.c > CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strdup.c -o CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strdup.c -o CMakeFiles/corewar_asm.dir/libft/ft_strdup.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.o: ../libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strequ.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strequ.c > CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strequ.c > CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strequ.c -o CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strequ.c -o CMakeFiles/corewar_asm.dir/libft/ft_strequ.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_striter.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_striter.c.o: ../libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_striter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_striter.c.o   -c /Users/pkathy/corewar_asm/libft/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_striter.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_striter.c.o   -c /home/bbamrin/corewar_asm/libft/ft_striter.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_striter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_striter.c > CMakeFiles/corewar_asm.dir/libft/ft_striter.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_striter.c > CMakeFiles/corewar_asm.dir/libft/ft_striter.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_striter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_striter.c -o CMakeFiles/corewar_asm.dir/libft/ft_striter.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_striter.c -o CMakeFiles/corewar_asm.dir/libft/ft_striter.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.o: ../libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.o   -c /Users/pkathy/corewar_asm/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.o   -c /home/bbamrin/corewar_asm/libft/ft_striteri.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_striteri.c > CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_striteri.c > CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_striteri.c -o CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_striteri.c -o CMakeFiles/corewar_asm.dir/libft/ft_striteri.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strjoin.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strjoin.c > CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strjoin.c > CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strjoin.c -o CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strjoin.c -o CMakeFiles/corewar_asm.dir/libft/ft_strjoin.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strlcat.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strlcat.c > CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strlcat.c > CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strlcat.c -o CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strlcat.c -o CMakeFiles/corewar_asm.dir/libft/ft_strlcat.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strlen.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strlen.c > CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strlen.c > CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strlen.c -o CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strlen.c -o CMakeFiles/corewar_asm.dir/libft/ft_strlen.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.o: ../libft/ft_strlowcase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strlowcase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strlowcase.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strlowcase.c > CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strlowcase.c > CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strlowcase.c -o CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strlowcase.c -o CMakeFiles/corewar_asm.dir/libft/ft_strlowcase.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.o: ../libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strmap.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strmap.c > CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strmap.c > CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strmap.c -o CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strmap.c -o CMakeFiles/corewar_asm.dir/libft/ft_strmap.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strmapi.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strmapi.c > CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strmapi.c > CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strmapi.c -o CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strmapi.c -o CMakeFiles/corewar_asm.dir/libft/ft_strmapi.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.o: ../libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strncat.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strncat.c > CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strncat.c > CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strncat.c -o CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strncat.c -o CMakeFiles/corewar_asm.dir/libft/ft_strncat.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strncmp.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strncmp.c > CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strncmp.c > CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strncmp.c -o CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strncmp.c -o CMakeFiles/corewar_asm.dir/libft/ft_strncmp.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strncpy.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strncpy.c > CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strncpy.c > CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strncpy.c -o CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strncpy.c -o CMakeFiles/corewar_asm.dir/libft/ft_strncpy.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.o: ../libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strnequ.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strnequ.c > CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strnequ.c > CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strnequ.c -o CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strnequ.c -o CMakeFiles/corewar_asm.dir/libft/ft_strnequ.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strnew.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strnew.c > CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strnew.c > CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strnew.c -o CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strnew.c -o CMakeFiles/corewar_asm.dir/libft/ft_strnew.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strnstr.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strnstr.c > CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strnstr.c > CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strnstr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strnstr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strnstr.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strrchr.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strrchr.c > CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strrchr.c > CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strrchr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strrchr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strrchr.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.o: ../libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strsplit.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strsplit.c > CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strsplit.c > CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strsplit.c -o CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strsplit.c -o CMakeFiles/corewar_asm.dir/libft/ft_strsplit.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.o: ../libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strstr.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strstr.c > CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strstr.c > CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strstr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strstr.c -o CMakeFiles/corewar_asm.dir/libft/ft_strstr.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strsub.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strsub.c > CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strsub.c > CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strsub.c -o CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strsub.c -o CMakeFiles/corewar_asm.dir/libft/ft_strsub.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strtrim.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strtrim.c > CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strtrim.c > CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strtrim.c -o CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strtrim.c -o CMakeFiles/corewar_asm.dir/libft/ft_strtrim.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.o: ../libft/ft_strupcase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.o   -c /Users/pkathy/corewar_asm/libft/ft_strupcase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.o   -c /home/bbamrin/corewar_asm/libft/ft_strupcase.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_strupcase.c > CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_strupcase.c > CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_strupcase.c -o CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_strupcase.c -o CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.o   -c /Users/pkathy/corewar_asm/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.o   -c /home/bbamrin/corewar_asm/libft/ft_tolower.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_tolower.c > CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_tolower.c > CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_tolower.c -o CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_tolower.c -o CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.s
 
 CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.o   -c /Users/pkathy/corewar_asm/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.o   -c /home/bbamrin/corewar_asm/libft/ft_toupper.c
 
 CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/ft_toupper.c > CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/ft_toupper.c > CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.i
 
 CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/ft_toupper.c -o CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/ft_toupper.c -o CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.s
 
 CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o   -c /Users/pkathy/corewar_asm/libft/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o   -c /home/bbamrin/corewar_asm/libft/get_next_line.c
 
 CMakeFiles/corewar_asm.dir/libft/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/libft/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/libft/get_next_line.c > CMakeFiles/corewar_asm.dir/libft/get_next_line.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/libft/get_next_line.c > CMakeFiles/corewar_asm.dir/libft/get_next_line.c.i
 
 CMakeFiles/corewar_asm.dir/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/libft/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/libft/get_next_line.c -o CMakeFiles/corewar_asm.dir/libft/get_next_line.c.s
-
-CMakeFiles/corewar_asm.dir/srcs/assembler.c.o: CMakeFiles/corewar_asm.dir/flags.make
-CMakeFiles/corewar_asm.dir/srcs/assembler.c.o: ../srcs/assembler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/corewar_asm.dir/srcs/assembler.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/assembler.c.o   -c /Users/pkathy/corewar_asm/srcs/assembler.c
-
-CMakeFiles/corewar_asm.dir/srcs/assembler.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/assembler.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/srcs/assembler.c > CMakeFiles/corewar_asm.dir/srcs/assembler.c.i
-
-CMakeFiles/corewar_asm.dir/srcs/assembler.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/assembler.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/srcs/assembler.c -o CMakeFiles/corewar_asm.dir/srcs/assembler.c.s
-
-CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o: CMakeFiles/corewar_asm.dir/flags.make
-CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o: ../srcs/file_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o   -c /Users/pkathy/corewar_asm/srcs/file_utils.c
-
-CMakeFiles/corewar_asm.dir/srcs/file_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/file_utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/srcs/file_utils.c > CMakeFiles/corewar_asm.dir/srcs/file_utils.c.i
-
-CMakeFiles/corewar_asm.dir/srcs/file_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/file_utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/srcs/file_utils.c -o CMakeFiles/corewar_asm.dir/srcs/file_utils.c.s
-
-CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o: CMakeFiles/corewar_asm.dir/flags.make
-CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o: ../srcs/header_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o   -c /Users/pkathy/corewar_asm/srcs/header_parse.c
-
-CMakeFiles/corewar_asm.dir/srcs/header_parse.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/header_parse.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/srcs/header_parse.c > CMakeFiles/corewar_asm.dir/srcs/header_parse.c.i
-
-CMakeFiles/corewar_asm.dir/srcs/header_parse.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/header_parse.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/srcs/header_parse.c -o CMakeFiles/corewar_asm.dir/srcs/header_parse.c.s
-
-CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o: CMakeFiles/corewar_asm.dir/flags.make
-CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o: ../srcs/lexical_analysis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o   -c /Users/pkathy/corewar_asm/srcs/lexical_analysis.c
-
-CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/srcs/lexical_analysis.c > CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.i
-
-CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/srcs/lexical_analysis.c -o CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.s
-
-CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o: CMakeFiles/corewar_asm.dir/flags.make
-CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o: ../srcs/lexical_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o   -c /Users/pkathy/corewar_asm/srcs/lexical_utils.c
-
-CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/srcs/lexical_utils.c > CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.i
-
-CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/srcs/lexical_utils.c -o CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.s
-
-CMakeFiles/corewar_asm.dir/srcs/op.c.o: CMakeFiles/corewar_asm.dir/flags.make
-CMakeFiles/corewar_asm.dir/srcs/op.c.o: ../srcs/op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/corewar_asm.dir/srcs/op.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/op.c.o   -c /Users/pkathy/corewar_asm/srcs/op.c
-
-CMakeFiles/corewar_asm.dir/srcs/op.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/op.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/srcs/op.c > CMakeFiles/corewar_asm.dir/srcs/op.c.i
-
-CMakeFiles/corewar_asm.dir/srcs/op.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/op.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/srcs/op.c -o CMakeFiles/corewar_asm.dir/srcs/op.c.s
-
-CMakeFiles/corewar_asm.dir/srcs/utils.c.o: CMakeFiles/corewar_asm.dir/flags.make
-CMakeFiles/corewar_asm.dir/srcs/utils.c.o: ../srcs/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/corewar_asm.dir/srcs/utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/utils.c.o   -c /Users/pkathy/corewar_asm/srcs/utils.c
-
-CMakeFiles/corewar_asm.dir/srcs/utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/srcs/utils.c > CMakeFiles/corewar_asm.dir/srcs/utils.c.i
-
-CMakeFiles/corewar_asm.dir/srcs/utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/srcs/utils.c -o CMakeFiles/corewar_asm.dir/srcs/utils.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/libft/get_next_line.c -o CMakeFiles/corewar_asm.dir/libft/get_next_line.c.s
 
 CMakeFiles/corewar_asm.dir/srcs/assemble.c.o: CMakeFiles/corewar_asm.dir/flags.make
 CMakeFiles/corewar_asm.dir/srcs/assemble.c.o: ../srcs/assemble.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/corewar_asm.dir/srcs/assemble.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/assemble.c.o   -c /Users/pkathy/corewar_asm/srcs/assemble.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/corewar_asm.dir/srcs/assemble.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/assemble.c.o   -c /home/bbamrin/corewar_asm/srcs/assemble.c
 
 CMakeFiles/corewar_asm.dir/srcs/assemble.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/assemble.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pkathy/corewar_asm/srcs/assemble.c > CMakeFiles/corewar_asm.dir/srcs/assemble.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/srcs/assemble.c > CMakeFiles/corewar_asm.dir/srcs/assemble.c.i
 
 CMakeFiles/corewar_asm.dir/srcs/assemble.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/assemble.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pkathy/corewar_asm/srcs/assemble.c -o CMakeFiles/corewar_asm.dir/srcs/assemble.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/srcs/assemble.c -o CMakeFiles/corewar_asm.dir/srcs/assemble.c.s
+
+CMakeFiles/corewar_asm.dir/srcs/assembler.c.o: CMakeFiles/corewar_asm.dir/flags.make
+CMakeFiles/corewar_asm.dir/srcs/assembler.c.o: ../srcs/assembler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/corewar_asm.dir/srcs/assembler.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/assembler.c.o   -c /home/bbamrin/corewar_asm/srcs/assembler.c
+
+CMakeFiles/corewar_asm.dir/srcs/assembler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/assembler.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/srcs/assembler.c > CMakeFiles/corewar_asm.dir/srcs/assembler.c.i
+
+CMakeFiles/corewar_asm.dir/srcs/assembler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/assembler.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/srcs/assembler.c -o CMakeFiles/corewar_asm.dir/srcs/assembler.c.s
+
+CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o: CMakeFiles/corewar_asm.dir/flags.make
+CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o: ../srcs/file_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o   -c /home/bbamrin/corewar_asm/srcs/file_utils.c
+
+CMakeFiles/corewar_asm.dir/srcs/file_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/file_utils.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/srcs/file_utils.c > CMakeFiles/corewar_asm.dir/srcs/file_utils.c.i
+
+CMakeFiles/corewar_asm.dir/srcs/file_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/file_utils.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/srcs/file_utils.c -o CMakeFiles/corewar_asm.dir/srcs/file_utils.c.s
+
+CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o: CMakeFiles/corewar_asm.dir/flags.make
+CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o: ../srcs/header_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o   -c /home/bbamrin/corewar_asm/srcs/header_parse.c
+
+CMakeFiles/corewar_asm.dir/srcs/header_parse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/header_parse.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/srcs/header_parse.c > CMakeFiles/corewar_asm.dir/srcs/header_parse.c.i
+
+CMakeFiles/corewar_asm.dir/srcs/header_parse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/header_parse.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/srcs/header_parse.c -o CMakeFiles/corewar_asm.dir/srcs/header_parse.c.s
+
+CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o: CMakeFiles/corewar_asm.dir/flags.make
+CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o: ../srcs/lexical_analysis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o   -c /home/bbamrin/corewar_asm/srcs/lexical_analysis.c
+
+CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/srcs/lexical_analysis.c > CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.i
+
+CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/srcs/lexical_analysis.c -o CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.s
+
+CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o: CMakeFiles/corewar_asm.dir/flags.make
+CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o: ../srcs/lexical_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o   -c /home/bbamrin/corewar_asm/srcs/lexical_utils.c
+
+CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/srcs/lexical_utils.c > CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.i
+
+CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/srcs/lexical_utils.c -o CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.s
+
+CMakeFiles/corewar_asm.dir/srcs/op.c.o: CMakeFiles/corewar_asm.dir/flags.make
+CMakeFiles/corewar_asm.dir/srcs/op.c.o: ../srcs/op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/corewar_asm.dir/srcs/op.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/op.c.o   -c /home/bbamrin/corewar_asm/srcs/op.c
+
+CMakeFiles/corewar_asm.dir/srcs/op.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/op.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/srcs/op.c > CMakeFiles/corewar_asm.dir/srcs/op.c.i
+
+CMakeFiles/corewar_asm.dir/srcs/op.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/op.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/srcs/op.c -o CMakeFiles/corewar_asm.dir/srcs/op.c.s
+
+CMakeFiles/corewar_asm.dir/srcs/utils.c.o: CMakeFiles/corewar_asm.dir/flags.make
+CMakeFiles/corewar_asm.dir/srcs/utils.c.o: ../srcs/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/corewar_asm.dir/srcs/utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar_asm.dir/srcs/utils.c.o   -c /home/bbamrin/corewar_asm/srcs/utils.c
+
+CMakeFiles/corewar_asm.dir/srcs/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar_asm.dir/srcs/utils.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bbamrin/corewar_asm/srcs/utils.c > CMakeFiles/corewar_asm.dir/srcs/utils.c.i
+
+CMakeFiles/corewar_asm.dir/srcs/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar_asm.dir/srcs/utils.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bbamrin/corewar_asm/srcs/utils.c -o CMakeFiles/corewar_asm.dir/srcs/utils.c.s
 
 # Object files for target corewar_asm
 corewar_asm_OBJECTS = \
@@ -1079,14 +1079,14 @@ corewar_asm_OBJECTS = \
 "CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.o" \
 "CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.o" \
 "CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o" \
+"CMakeFiles/corewar_asm.dir/srcs/assemble.c.o" \
 "CMakeFiles/corewar_asm.dir/srcs/assembler.c.o" \
 "CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o" \
 "CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o" \
 "CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o" \
 "CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o" \
 "CMakeFiles/corewar_asm.dir/srcs/op.c.o" \
-"CMakeFiles/corewar_asm.dir/srcs/utils.c.o" \
-"CMakeFiles/corewar_asm.dir/srcs/assemble.c.o"
+"CMakeFiles/corewar_asm.dir/srcs/utils.c.o"
 
 # External object files for target corewar_asm
 corewar_asm_EXTERNAL_OBJECTS =
@@ -1155,6 +1155,7 @@ corewar_asm: CMakeFiles/corewar_asm.dir/libft/ft_strupcase.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/libft/ft_tolower.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/libft/ft_toupper.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/libft/get_next_line.c.o
+corewar_asm: CMakeFiles/corewar_asm.dir/srcs/assemble.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/srcs/assembler.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/srcs/file_utils.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/srcs/header_parse.c.o
@@ -1162,10 +1163,9 @@ corewar_asm: CMakeFiles/corewar_asm.dir/srcs/lexical_analysis.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/srcs/lexical_utils.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/srcs/op.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/srcs/utils.c.o
-corewar_asm: CMakeFiles/corewar_asm.dir/srcs/assemble.c.o
 corewar_asm: CMakeFiles/corewar_asm.dir/build.make
 corewar_asm: CMakeFiles/corewar_asm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C executable corewar_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C executable corewar_asm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/corewar_asm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1178,6 +1178,6 @@ CMakeFiles/corewar_asm.dir/clean:
 .PHONY : CMakeFiles/corewar_asm.dir/clean
 
 CMakeFiles/corewar_asm.dir/depend:
-	cd /Users/pkathy/corewar_asm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pkathy/corewar_asm /Users/pkathy/corewar_asm /Users/pkathy/corewar_asm/cmake-build-debug /Users/pkathy/corewar_asm/cmake-build-debug /Users/pkathy/corewar_asm/cmake-build-debug/CMakeFiles/corewar_asm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bbamrin/corewar_asm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bbamrin/corewar_asm /home/bbamrin/corewar_asm /home/bbamrin/corewar_asm/cmake-build-debug /home/bbamrin/corewar_asm/cmake-build-debug /home/bbamrin/corewar_asm/cmake-build-debug/CMakeFiles/corewar_asm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/corewar_asm.dir/depend
 

@@ -35,7 +35,6 @@ typedef struct	s_label
 typedef struct	s_token
 {
 	t_list		*labels;
-	//static
 	t_op		operation;
 	t_list		*args;
 	int			position;
@@ -54,15 +53,18 @@ typedef struct s_asm
 	int				opened_fd;
 	int 			cmd_mode;
 	int 			champ_code_size;
+	int 			was_comment;
+	int 			was_name;
 	int 			is_little_endian;
 	int 			line_count;
+	char 			*out_name;
 }				t_asm;
 
 int		skip_whitespaces(char *str, int *i);
 int		is_space(char c);
 void	ft_lstadd_end(t_list **alst, t_list *new);
 int		create_token(t_asm *asm_ctx, int position);
-int		parse(t_asm *asm_ctx);
+int		parse(t_asm *asm_ctx, int cur_position);
 int		open_file(t_asm *asm_ctx, char *fname);
 int		set_operation(t_asm *asm_ctx, char *str);
 void	init_op_tab(t_asm *asm_ctx);

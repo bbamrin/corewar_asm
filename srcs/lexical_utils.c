@@ -1,3 +1,14 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   filler.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pkathy <pkathy@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/09/04 19:54:18 by pkathy            #+#    #+#             */
+/*   Updated: 2019/09/04 19:57:41 by pkathy           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../includes/assembler.h"
 
@@ -42,7 +53,6 @@ int		get_next_arg(t_asm *asm_ctx, char *line, int *i)
 		arg.type = T_IND;
 	while (line[i1] && line[i1] != COMMENT_CHAR && line[i1] != SEPARATOR_CHAR)
 		++(i1);
-	//handle malloc
 	clean_trim(&(arg.value), ft_strsub(line, *i, i1  - *i));
 	ft_lstadd_end(&((t_token *)(asm_ctx->last_token->content))->args, ft_lstnew(&arg, sizeof(t_arg)));
 	if (line[i1] == SEPARATOR_CHAR)

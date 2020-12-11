@@ -1,3 +1,14 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   filler.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pkathy <pkathy@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/09/04 19:54:18 by pkathy            #+#    #+#             */
+/*   Updated: 2019/09/04 19:57:41 by pkathy           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../includes/assembler.h"
 
@@ -54,9 +65,19 @@ int 	read_cmd(t_asm *asm_ctx, char *line)
 void 	set_cmd_mode(t_asm *asm_ctx, char *line)
 {
 	if (!ft_strncmp(line, NAME_CMD_STRING, ft_strlen(NAME_CMD_STRING)))
+	{
 		asm_ctx->cmd_mode = 0;
+		if (asm_ctx->was_name)
+			throw_error(asm_ctx, "expected only one definition of name", 0);
+		asm_ctx->was_name = 1;
+	}
 	else if (!ft_strncmp(line, COMMENT_CMD_STRING, ft_strlen(COMMENT_CMD_STRING)))
+	{
 		asm_ctx->cmd_mode = 1;
+		if (asm_ctx->was_comment)
+			throw_error(asm_ctx, "expected only one definition of comment", 0);
+		asm_ctx->was_comment = 1;
+	}
 	else
 		asm_ctx->cmd_mode = -1;
 }
@@ -86,7 +107,7 @@ int		get_cmd(t_asm *asm_ctx)
 
 	i = 0;
 	if ((ret = skip_header_void(asm_ctx, &line, &i)) <= 0)
-		return (ret);
+		return (ret != 0 ? ret : -1);
 	set_cmd_mode(asm_ctx, &line[i]);
 	if (asm_ctx->cmd_mode == -1)
 		return (-1);
@@ -98,7 +119,7 @@ int		get_cmd(t_asm *asm_ctx)
 	ft_strdel(&line);
 	if (ret <= 0)
 		return (ret);
-	while (++(asm_ctx->line_count) == asm_ctx->line_count
+	while (++(asm_ctx->line_count) > 0
 	&& get_next_line(asm_ctx->opened_fd, &line)
 	&& (ret = read_cmd(asm_ctx, line)) == 1)
 		ft_strdel(&line);

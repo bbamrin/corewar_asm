@@ -60,6 +60,7 @@ void 	free_asm(t_asm *asm_ctx)
 	close(asm_ctx->opened_fd);
 	ft_strdel(&(asm_ctx->name));
 	ft_strdel(&(asm_ctx->comment));
+	ft_strdel(&(asm_ctx->out_name));
 	if (asm_ctx->tokens)
 		ft_lstdel(&asm_ctx->tokens, &free_token);
 	ft_memdel((void **)&(asm_ctx->champ_code));
@@ -70,9 +71,11 @@ void 	throw_line_error(t_asm *asm_ctx, const char *msg1, const char *msg2, int l
 {
 	if (msg1)
 		ft_putstr(msg1);
-	ft_putstr(" ");
 	if (msg2)
+	{
+		ft_putstr(" ");
 		ft_putstr(msg2);
+	}
 	ft_putstr(" at line: ");
 	ft_putnbr(line_num);
 	ft_putstr("\n");
@@ -85,9 +88,11 @@ void 	throw_error(t_asm *asm_ctx, const char *msg1, const char *msg2)
 {
 	if (msg1)
 		ft_putstr(msg1);
-	ft_putstr(" ");
 	if (msg2)
+	{
+		ft_putstr(" ");
 		ft_putstr(msg2);
+	}
 	ft_putstr("\n");
 	if (asm_ctx)
 		free_asm(asm_ctx);
@@ -170,6 +175,8 @@ t_asm	*init()
 	asm_ctx->cmd_mode = -1;
 	asm_ctx->champ_code_size = 0;
 	asm_ctx->line_count = 1;
+	asm_ctx->was_comment = 0;
+	asm_ctx->was_name = 0;
 	if (*c)
 		asm_ctx->is_little_endian = 1;
 	else
@@ -192,16 +199,14 @@ int		main(int argc, char **argv)
 		throw_error(asm_ctx, "some error while reading header", 0);
 	if (!set_header_command(asm_ctx))
 		throw_error(asm_ctx, "some error while reading header", 0);
-	if (!parse(asm_ctx))
+	if (!parse(asm_ctx, 0))
 		throw_error(asm_ctx, "some error while parsing\n", 0);
 	if (!resolve_labels(asm_ctx))
 		throw_error(asm_ctx, "error when resolving labels\n", 0);
-	//print_asm(asm_ctx);
 	if (!assemble(asm_ctx))
 		throw_error(asm_ctx, "some error while parsing\n", 0);
-	/*for (int i = 0; i < asm_ctx->champ_code_size; ++i)
-		printf("%x ", asm_ctx->champ_code[i]);
-	printf("\n");*/
-	//printf ("kek lol:%d\n", ~((-14 / 2) - 1));
+	ft_putstr("Writing output program to ");
+	ft_putstr(asm_ctx->out_name);
+	ft_putchar('\n');
 	free_asm(asm_ctx);
 }

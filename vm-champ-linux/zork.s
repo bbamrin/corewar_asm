@@ -25,7 +25,7 @@ fork1:	live %66
 fork2:	live %66
 #	fork %:fork0
 
-master:	live %66
+master:	live %66l
 	ld %0,r3
 	ld %16777216,r6
 #	ldi %:master,%0,r6

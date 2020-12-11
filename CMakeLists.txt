@@ -5,6 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(includes)
 include_directories(libft)
+include_directories(srcs)
 
 add_executable(corewar_asm
         includes/assembler.h
@@ -75,10 +76,11 @@ add_executable(corewar_asm
         libft/get_next_line.c
         libft/get_next_line.h
         libft/libft.h
+        srcs/assemble.c
         srcs/assembler.c
         srcs/file_utils.c
         srcs/header_parse.c
         srcs/lexical_analysis.c
         srcs/lexical_utils.c
         srcs/op.c
-        srcs/utils.c srcs/assemble.c)
+        srcs/utils.c)
